@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us</title>
+  <style>
+    :root {
+      --primary-color: #ff0000; /* red */
+      --secondary-color: #ffffff; /* white */
+      --tertiary-color: #000000; /* black */
+    }
+
+    /* Styles for the header */
+    header {
+      background-color: var(--primary-color);
+      color: var(--tertiary-color);
+      padding: 20px;
+    }
+
+    /* Styles for the footer */
+    footer {
+      background-color: var(--tertiary-color);
+      color: var(--secondary-color);
+      padding: 20px;
+    }
+
+    /* Styles for the main content sections */
+    .content-section {
+      background-color: var(--secondary-color);
+      color: var(--tertiary-color);
+      padding: 40px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Styles for the mentor images */
+    .mentor-images {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .mentor-image {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .mentor-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Styles for the main content */
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: justify;
+      line-height: 1.5;
+    }
+    .content-section {
+      position: relative;
+      background-color: #ffffff;
+      padding: 40px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .content-section:before {
+      content: "Logo";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(redlogo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.3;
+      z-index: -1;
+    }
+
+    .content-section:nth-of-type(even):before {
+      background-image: url(redlogo.jpg);
+    }
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    var today = new Date();
+    var date = today.toLocaleDateString();
+    var time = today.toLocaleTimeString();
+    var datetime = date + ' ' + time;
+    document.getElementById('datetime').innerHTML = datetime;
+  </script>
+</head>
+<body>
+  <nav>
+    <h1>Creating A Breakthrough</h1>
+    <script>
+      var today = new Date();
+var date = today.toLocaleDateString();
+var time = today.toLocaleTimeString();
+var datetime = date + ' ' + time;
+document.getElementById('datetime').innerHTML = datetime;
+
+   
+
+    </script>
+    <p id="datetime"></p>
+   <div id="sign"> 
+    
+      <a class='ab' href="sign_in.html">sign in</a> 
+    
+       
+  </div>
+  <header>
+    <ul>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="mentor.html">Become a Mentor</a></li>
+      <li><a href="Contact.html">Contact Us</a></li>
+
+
+      </script></li>
+    </ul>
+      </script>
+  </script>
+  </nav>
+  </header>
+</head>
+<body>
+ <!-- Mentor images -->
+  <div class="mentor-images">
+    <div class="mentor-image">
+      <img src="redlogo.jpg" alt="Mentor 1">
+    </div>
+
+  <!-- Main content -->
+  <div class="content-section">
+    <h1>About Us</h1>
+    <p>Born and raised in Newark, New Jersey, we are committed to giving back to our community. Understanding that the children are our future, we thrive on consistent love, guidance and safe havens for our achievers..</p>
+    <h1>Our Vision</h1>
+    <p>Our focus is to be a support system proving love resources, and education, so that the families can become one family. Creating our next world leaders. Remembering that they are our future. Through caring and sharing, we will empower innovation and change within the community
+
+        To build self confidence as it relates to social awareness, education, and self esteem. Empowering innovation and change within their communities </p>
+        <div class="content-section">
+          <h1>Our Mission</h1>
+    <p> The mission of Creating A Breakthrough is to help boys and girls achieve their goals and live a life of success while we build self confidence through social awareness, education and self esteem with creating a breakthrough with their gifts and talents. </p>
+    <h1>Our Expirience</h1>
+    <p>If you're interested in working with me as your mentor, please [list how to get in touch with you or how to sign up for mentorship services]. I'm excited to help you on your journey to success!</p>
+    <div class="content-section">
+      <h1>Our Approach</h1>
+      <p>Our service includes a comprehensive consult to help identify areas and opportunities, to pair your youth with a professional and trained mentor for the individual time. While partnering with the faculty and family, we are able to understand the need based of the child. Making sure they are paired with the appropriate match. </p>
+  </div>
+</body>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <p>Copyright © 2023 Creating A Breakthrough Mentorship Program - All Rights Reserved.</p>
+          <p>Email: ashodges73@gmail.com</p>
+          <p>Phone: +1 (862)-579-1238</p>
+      </div>
+      <div class="col-md-3">
+        <h3>Follow Us</h3>
+        <ul class="social">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</html>
